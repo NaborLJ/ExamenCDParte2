@@ -38,7 +38,7 @@ public class Principal {
         /**
          * Se le asigna a la variable ndig el valor de la variable contador.
          * Ahora se usará la variable ndig como la variable contador.
-         * A partir de este punto comienzan las condiciones que ha de pasar el digito introducido para ver si es mostrado o no.
+         * A partir de este punto comienzan las condiciones que ha de pasar el digito introducido para ver si es mostrado por pantalla o no.
          */
             ndig = contador;
 
