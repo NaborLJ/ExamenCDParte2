@@ -11,13 +11,13 @@ public class Principal {
          * JPane para ingresar digitos, el digito que introduzcamos se le asignara a la variable dig.
          * @param dig Variable de tipo int, recogerá el digito introducido para operar con el.
          */
-        int dig = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero de digitos correcto (mayor que 0): "));;
-        int ndig = 0;
+        int digit = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero de digitos correcto (mayor que 0): "));;
+        int numDigit = 0;
         /**
          * Condición if que retornará un mensaje de error en caso de que el número introducido previamente sea menor a 1.
          * En caso de que el digito sea 1 o mayor realizará el bucle for que precede al if.
          */
-        if (dig <= 0) {
+        if (digit <= 0) {
             System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         }
         /**
@@ -40,9 +40,9 @@ public class Principal {
          * Ahora se usará la variable ndig como la variable contador.
          * A partir de este punto comienzan las condiciones que ha de pasar el digito introducido para ver si es mostrado por pantalla o no.
          */
-            ndig = contador;
+            numDigit = contador;
 
-            if (ndig == dig) {
+            if (numDigit == digit) {
                 if (i < 4) {
                     p = true;
                 } else {
